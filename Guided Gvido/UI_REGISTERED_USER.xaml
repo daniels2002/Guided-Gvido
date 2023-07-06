@@ -1,0 +1,17 @@
+﻿<Window x:Class="Guided_Gvido.UI_REGISTERED_USER"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Guided_Gvido"
+        mc:Ignorable="d"
+        Title="UI_REGISTERED_USER" Height="450" Width="800">
+    <Grid Background="LightGreen" >
+        <TextBox Name="User_name" HorizontalAlignment="Left" Margin="319,85,0,0" TextWrapping="Wrap" Text="Enter name " VerticalAlignment="Top" Width="167" TextChanged="TextBox_NameChanged"/>
+        <TextBox Name="User_surname" HorizontalAlignment="Left" Margin="319,130,0,0" TextWrapping="Wrap" Text="Enter surnname " VerticalAlignment="Top" Width="169" TextChanged="Texbox_SurnameChanged"/>
+        <TextBox  Name ="User_email" HorizontalAlignment="Left" Margin="322,174,0,0" TextWrapping="Wrap" Text="Enter email " VerticalAlignment="Top" Width="171" TextChanged="TextBox_EmailChanged" Height="24"/>
+        <TextBox  Name ="User_password" HorizontalAlignment="Left" Margin="323,228,0,0" TextWrapping="Wrap" Text="Enter password " VerticalAlignment="Top" Width="171" TextChanged="User_password_TextChanged" Height="24"/>
+        <Button Content="Submit" Click="Validate_fields" HorizontalAlignment="Left" Margin="371,306,0,0" VerticalAlignment="Top"/>
+        <Button Content="Exit" Margin="694,376,18,10" Background="#FFB12727" Click="Button_Click" RenderTransformOrigin="0.308,0.191"></Button>
+    </Grid>
+</Window>

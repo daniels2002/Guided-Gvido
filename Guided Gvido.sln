@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guided Gvido", "Guided Gvido\Guided Gvido.csproj", "{F525FDA3-EC58-4082-AAB9-BE17304B3E3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F525FDA3-EC58-4082-AAB9-BE17304B3E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F525FDA3-EC58-4082-AAB9-BE17304B3E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F525FDA3-EC58-4082-AAB9-BE17304B3E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F525FDA3-EC58-4082-AAB9-BE17304B3E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB5D236A-1C94-4B9A-922D-C5154AB714D9}
+	EndGlobalSection
+EndGlobal

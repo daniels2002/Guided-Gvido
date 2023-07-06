@@ -1,0 +1,30 @@
+﻿<Window x:Class="Guided_Gvido.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Guided_Gvido"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="808" Width="500" MaxHeight="718" MinHeight="708 " MaxWidth="500" MinWidth="600">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill">
+                <ImageBrush.ImageSource>
+                    <BitmapImage CacheOption="OnLoad" CreateOptions="IgnoreImageCache" UriSource="file:///D:/3_SEM/PROGRAMINDZENERJAS_METODES/GG_LOGO.JPEG" />
+                </ImageBrush.ImageSource>
+            </ImageBrush>
+        </Grid.Background>
+        <Button Name="Register" Click="Button_Click" Content="Register" VerticalAlignment="Top"  HorizontalContentAlignment="Center" FontSize="14" Background="#FFD45353" Margin="97,571,92,0" RenderTransformOrigin="0.5,0.5" />
+
+        <Button Name="Language" Click="Language_Click"  Content="Language" Margin="99,511,389,137" Background="#FF78AB48" />
+        <Button  Name="LVMADMIN" Content="LVM ADMIN" Click="LVM_admin_click" Background="Green" Margin="360,511,105,137" />
+        <Button  Content="FAQ" Margin="264,511,267,137" Background="#FFED5454" RenderTransformOrigin="0.874,0.548" />
+        <Button Click="Login_Click"  Content="Login" Margin="225,599,231,62" Background="#FF507B51"></Button>
+        <ListBox Name="LBOX" Visibility="Hidden"  Margin="239,100,218,521" RenderTransformOrigin="1.541,-0.024">
+            <ListBoxItem Name="LT" MouseDoubleClick="LT_MouseDoubleClick">Latvian</ListBoxItem>
+            <ListBoxItem Name="RU" MouseDoubleClick="RU_MouseDoubleClick">Russian</ListBoxItem>
+            <ListBoxItem Name="EN" MouseDoubleClick="EN_MouseDoubleClick">English</ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>
